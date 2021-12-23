@@ -1,5 +1,6 @@
 import React from "react";
 import { dataLenguaje } from "../../../helpers/data";
+import Portafolio from "./Portafolio";
 
 import "./main.css";
 
@@ -38,7 +39,7 @@ const MainScreen = () => {
             </ul>
             <ul className="main_ul_desing">
               <h3>Para maquetar utilizo</h3>
-              {subject.splice(0, 4)}
+              {subject.splice(0, 6)}
             </ul>
             <ul className="main_ul_test">
               <h3>Para las pruebas utilizo</h3>
@@ -46,6 +47,7 @@ const MainScreen = () => {
             </ul>
           </aside>
         </section>
+        <Portafolio />
       </main>
     </>
   );

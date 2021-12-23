@@ -36,9 +36,15 @@ const Navbar = () => {
           }
         >
           <ul className="navbar_ul">
-            <li className="navbar_li">Blog</li>
-            <li className="navbar_li">briefcase</li>
-            <li className="navbar_li">Contact</li>
+            <li id="#blog" className="navbar_li">
+              Blog
+            </li>
+            <li id="#briefcase" className="navbar_li">
+              briefcase
+            </li>
+            <li id="#Contact" className="navbar_li">
+              Contact
+            </li>
             <li className="navbar_li">Cv</li>
           </ul>
         </div>

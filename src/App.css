@@ -12,3 +12,11 @@ body {
   font-family: "Nunito", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
 }
+
+.background_black {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: black;
+  top: 0;
+}
