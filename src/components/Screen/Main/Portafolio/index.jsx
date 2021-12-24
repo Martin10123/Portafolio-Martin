@@ -15,7 +15,7 @@ const Portafolio = () => {
   };
   return (
     <>
-      <div id="briefcase" className="portafolio_card_body">
+      <div data-aos="fade-down" id="briefcase" className="portafolio_card_body">
         <div className="portafolio_background">
           <h2 className="portafolio_h2">Portafolio de proyectos</h2>
           <div className="portafolio_container">

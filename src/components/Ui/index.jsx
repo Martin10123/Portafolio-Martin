@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar">
+      <nav data-aos="zoom-in-right" className="navbar">
         <div className="navbar_box_img">
           <img src={logo1} alt="Logo" />
         </div>
@@ -45,7 +45,11 @@ const Navbar = () => {
             <a href="#contact" className="navbar_a">
               Contacto
             </a>
-            <a href="a" className="navbar_a">
+            <a
+              href="https://docs.google.com/document/d/1V3OpXyQ-kjset-bIrQHP0KB5jnqCFUBkjDaWU2Scy5E/edit?usp=sharing"
+              target="blank"
+              className="navbar_a"
+            >
               Cv
             </a>
           </div>

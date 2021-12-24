@@ -21,8 +21,8 @@ const MainScreen = () => {
       <div className="main_background"></div>
       <main id="blog" className="main_container">
         <h1>Información personal</h1>
-        <section className="main_section">
-          <article className="main_personalInfo">
+        <section data-aos="fade-down-right" className="main_section">
+          <article data-aos="fade-down-right" className="main_personalInfo">
             <h2>Bienvenidos</h2>
             <p>
               Hola mi nombre es Martin Elias, soy un (Desarrollo Web Front End -
@@ -34,13 +34,13 @@ const MainScreen = () => {
               Frontend, asi que tome un curso en Acamica, aprendi buenos
               conceptos, pero aprendi más cosas por mi cuenta y asi sigo, me
               gusta aprender cosas nuevas relacionadas a esto. <br />
-              Al principio no me gustaba mucho porque no entendia muchas cosas y
-              sentia que no era para mi, pero al pasar del tiempo gracias a
-              buenos consejos y a empezar de cero nuevamente le empece a agarrar
-              un poco la onda y me empezo a gustar nuevamente, ahora paso la
-              mayoria del tiempo viendo videos y intentando aprender nuevas.
-              Disfruto construyendo interfaces graficas con React, me divirto
-              mucho haciendolo.
+              <br /> Al principio no me gustaba mucho porque no entendia muchas
+              cosas y sentia que no era para mi, pero al pasar del tiempo
+              gracias a buenos consejos y a empezar de cero nuevamente le empece
+              a agarrar un poco la onda y me empezo a gustar nuevamente, ahora
+              paso la mayoria del tiempo viendo videos y intentando aprender
+              nuevas. Disfruto construyendo interfaces graficas con React, me
+              divirto mucho haciendolo.
             </p>
           </article>
           <aside className="main_content">

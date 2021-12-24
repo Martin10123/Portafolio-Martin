@@ -6,7 +6,7 @@ const ModalScreen = ({ handleModal, chooser }) => {
   return (
     <>
       <div className="background_modal"></div>
-      <section className="modal_content">
+      <section data-aos="zoom-in" className="modal_content">
         {chooser.map((app) => {
           return (
             <div key={app.id} className="modal_info">
@@ -20,6 +20,7 @@ const ModalScreen = ({ handleModal, chooser }) => {
                   <p>Estado: {app.status}</p>
                   <p>Pruebas: {app.testing}</p>
                 </span>
+                <p className="modal_phosting">Desplegado en: {app.hosting}</p>
               </div>
               <div className="modal_img">
                 <img src={app.img} alt="Modal" />

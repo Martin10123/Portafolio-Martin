@@ -18,6 +18,7 @@ export const dataApps = [
     img: devsUnited,
     web: "https://fir-devs-united.web.app/register",
     github: "https://github.com/Martin10123/Devs_united",
+    hosting: "Firebase hosting",
   },
   {
     id: 2,
@@ -27,8 +28,9 @@ export const dataApps = [
     tools: ["React", "Firebase", "Git", "Github", "Api - Giphy-developer"],
     desc: "Esta fue una de las primeras aplicaciones que hice, Fue un reto para mi, ya que tenia que consumir una Api. Esta app te ayuda a buscar gifos de manera rapida y sencilla, puedes darle click a la imagen y esta te lleva directamente a la pagina original del gif.",
     img: appGifos,
-    web: "https://martin10123.github.io/Gifs-App/",
-    github: "https://github.com/Martin10123/Gifs-App",
+    web: "https://martin10123.github.io/gifs/",
+    github: "https://github.com/Martin10123/gifs",
+    hosting: "Github pages",
   },
   {
     id: 3,
@@ -40,6 +42,7 @@ export const dataApps = [
     img: appMine,
     web: "https://sql-demos10.web.app/auth",
     github: "https://github.com/Martin10123/Notes-App",
+    hosting: "Firebase hosting",
   },
   {
     id: 4,
@@ -60,6 +63,7 @@ export const dataApps = [
     img: calendarApp,
     web: "https://calendar-backend-martin.herokuapp.com",
     github: "https://github.com/Martin10123/Calendar_App",
+    hosting: "Heroku",
   },
   {
     id: 5,
@@ -71,6 +75,7 @@ export const dataApps = [
     img: appCars,
     web: "",
     github: "https://github.com/Martin10123/Auto-cars",
+    hosting: "",
   },
   {
     id: 6,
@@ -82,6 +87,7 @@ export const dataApps = [
     img: todo,
     web: "",
     github: "https://github.com/Martin10123/Todo_App",
+    hosting: "",
   },
   {
     id: 7,
@@ -93,6 +99,7 @@ export const dataApps = [
     img: appHeroes,
     web: "",
     github: "https://github.com/Martin10123/App-heroes",
+    hosting: "",
   },
   {
     id: 8,
@@ -104,5 +111,6 @@ export const dataApps = [
     img: hotels,
     web: "https://martin10123.github.io/app-hotels/",
     github: "https://github.com/Martin10123/Proyect-Hoteles",
+    hosting: "Github pages",
   },
 ];

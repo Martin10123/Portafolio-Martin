@@ -22,6 +22,15 @@ main.main_container {
   border-radius: 0.4rem;
 }
 
+.main_personalInfo::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+.main_personalInfo::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 5px;
+}
+
 .main_personalInfo > h2 {
   text-align: center;
   padding: 1rem 0;
@@ -194,7 +203,7 @@ main.main_container {
   }
 
   .main_container > h1 {
-    padding-left: 18rem;
+    padding-left: 8rem;
     margin-bottom: 3rem;
     font-size: 4rem;
     color: white;

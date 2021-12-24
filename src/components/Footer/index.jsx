@@ -4,7 +4,7 @@ import "./footer.css";
 
 const FooterScreen = () => {
   return (
-    <footer id="contact">
+    <footer data-aos="zoom-in-right" id="contact">
       <div className="div_inside_footer">
         <div className="social_network_find_us pd-5">
           <h2>Redes Sociales</h2>
