@@ -8,12 +8,15 @@
 .header_background > img {
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
   overflow: hidden;
 }
 
 @media all and (min-width: 1400px) {
   .header_background > img {
     object-fit: cover;
+  }
+
+  .header_background {
+    width: 100%;
   }
 }

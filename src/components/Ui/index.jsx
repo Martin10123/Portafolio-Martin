@@ -35,18 +35,20 @@ const Navbar = () => {
             show ? "navbar_content" : " navbar_content navbar_content_hidden"
           }
         >
-          <ul className="navbar_ul">
-            <li id="#blog" className="navbar_li">
-              Blog
-            </li>
-            <li id="#briefcase" className="navbar_li">
-              briefcase
-            </li>
-            <li id="#Contact" className="navbar_li">
-              Contact
-            </li>
-            <li className="navbar_li">Cv</li>
-          </ul>
+          <div className="navbar_ul">
+            <a href="#blog" className="navbar_a">
+              Info
+            </a>
+            <a href="#briefcase" className="navbar_a">
+              Portafolio
+            </a>
+            <a href="#contact" className="navbar_a">
+              Contacto
+            </a>
+            <a href="a" className="navbar_a">
+              Cv
+            </a>
+          </div>
         </div>
       </nav>
     </>

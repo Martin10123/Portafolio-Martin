@@ -60,24 +60,6 @@ article.portafolio_card_img > h1 {
   opacity: 1;
 }
 
-.portafolio_buttons {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.portafolio_buttons button {
-  width: 40%;
-  height: 2rem;
-  font-size: 1rem;
-  margin: 5rem 0;
-  background: transparent;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
 @media all and (min-width: 1300px) {
   .portafolio_h2 {
     font-size: 4rem;
@@ -87,9 +69,5 @@ article.portafolio_card_img > h1 {
 
   article.portafolio_card_img {
     margin: 6rem 3rem;
-  }
-
-  .portafolio_buttons button {
-    font-size: 2rem;
   }
 }

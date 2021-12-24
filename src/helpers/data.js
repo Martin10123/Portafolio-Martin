@@ -1,4 +1,4 @@
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiOutlinePicture } from "react-icons/ai";
 import {
   SiReact,
   SiRedux,
@@ -35,51 +35,56 @@ export const dataLenguaje = [
   },
   {
     id: 6,
+    title: "Cloudinary",
+    icons: AiOutlinePicture,
+  },
+  {
+    id: 7,
     title: "Git",
     icons: DiGitBranch,
   },
   {
-    id: 7,
+    id: 8,
     title: "Github",
     icons: AiFillGithub,
   },
   {
-    id: 8,
+    id: 9,
     title: "HTMl5",
     icons: IoLogoHtml5,
   },
   {
-    id: 9,
+    id: 10,
     title: "CSS3",
     icons: IoLogoCss3,
   },
   {
-    id: 10,
+    id: 11,
     title: "SASS",
     icons: SiSass,
   },
   {
-    id: 11,
+    id: 12,
     title: "Bootstrap",
     icons: SiBootstrap,
   },
   {
-    id: 12,
+    id: 13,
     title: "Figma",
     icons: SiFigma,
   },
   {
-    id: 13,
+    id: 14,
     title: "Paint",
     icons: BiPaint,
   },
   {
-    id: 14,
+    id: 15,
     title: "Enzyme",
     icons: BiTestTube,
   },
   {
-    id: 15,
+    id: 16,
     title: "Jest",
     icons: SiSpeedtest,
   },
